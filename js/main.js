@@ -1,14 +1,12 @@
-let num1= 1
-let num2= 2
-let num3= 3
+const nombres = ["ana", "sole", "nadia",];
 
+function saludar(nombre){
+    alert("hola,"+ nombre+"!");
+}
+let nombreIngresado = prompt( "ingresa tu nombre");
 
-let numeros= [1, 2, 3, ]
-console.log (numeros)
- alert()
-
-let alunmo1 = "perez"
-let alumno2 = "monserrat"
-
-let alumnos = new Array("perez", "monserrat", )
-console.log(alumnos);
+if(nombres.includes(nombreIngresado)){
+    saludar(nombreIngresado);
+}else{
+    alert("nombre no reconocido");
+}
